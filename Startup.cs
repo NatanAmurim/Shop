@@ -32,6 +32,8 @@ namespace Shop
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Shop", Version = "v1" });
             });
+
+            //services.AddDbContext<DataContext>(opt => opt.InMemory);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
